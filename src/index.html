@@ -5,14 +5,15 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Product cards</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Lexend+Deca:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   </head>
-  <body class="mac-shop">
-    <header class="header">
-      <a href="#home" class="home-image-link">
+  <body>
+
+    <header class="header-menu">
+      <a href="#home" class="header-menu__image">
         <img
         src="../src/images/logo.png"
         alt="moyo logo"
@@ -63,21 +64,19 @@
         </ul>
       </nav>
     </header>
-
-    <div class="card-container">
-
-      <div class="card" data-qa="card">
-        <p class="card__image-box">
-          <img src="./images/imac.jpeg"
-          alt="Mac"
-          class="card__image-box-mac-image"
-          >
-        </p>
-        <article class="card__info">
-          <p class="card__mac-model">
+    <div class="mac-shop">
+      <div class="card-container">
+        <div class="phone-card" data-qa="card">
+          <p class="phone-card__image-box">
+            <img src="./images/imac.jpeg"
+            alt="Mac"
+            class="phone-card__image"
+            >
+          </p>
+          <p class="phone-card__mac-model">
             APPLE A1419 iMac 27" Retina 5K Monoblock (MNED2UA/A)
           </p>
-          <p class="card__product-code">
+          <p class="phone-card__product-code">
             Product code: 195434
           </p>
           <div class="stars">
@@ -90,28 +89,29 @@
             </ul>
             <p class="stars__text">Reviews: 5</p>
           </div>
-          <div class="card__price">
-            <p class="card__price-title">Price:</p>
-            <p class="card__price-total">$2,199</p>
+          <div class="phone-card__price">
+            <p class="phone-card__price-title">Price:</p>
+            <p class="phone-card__price-total">$2,199</p>
           </div>
-          <div class="button">
-            <a class="button__buy" data-qa="hover">buy</a>
-          </div>
-        </article>
-      </div>
-
-      <div class="card" data-qa="card">
-        <p class="card__image-box">
-          <img src="./images/imac.jpeg"
-          alt="Mac"
-          class="card__image-box-mac-image"
+          <a
+          class="phone-card__button"
+          data-qa="hover"
+          href="#"
           >
-        </p>
-        <article class="card__info">
-          <p class="card__mac-model">
+          buy
+          </a>
+        </div>
+        <div class="phone-card" data-qa="card">
+          <p class="phone-card__image-box">
+            <img src="./images/imac.jpeg"
+            alt="Mac"
+            class="phone-card__image"
+            >
+          </p>
+          <p class="phone-card__mac-model">
             APPLE A1419 iMac 27" Retina 5K Monoblock (MNED2UA/A)
           </p>
-          <p class="card__product-code">
+          <p class="phone-card__product-code">
             Product code: 195434
           </p>
           <div class="stars">
@@ -124,17 +124,230 @@
             </ul>
             <p class="stars__text">Reviews: 5</p>
           </div>
-          <div class="card__price">
-            <p class="card__price-title">Price:</p>
-            <p class="card__price-total">$2,199</p>
+          <div class="phone-card__price">
+            <p class="phone-card__price-title">Price:</p>
+            <p class="phone-card__price-total">$2,199</p>
           </div>
-          <div class="button">
-            <a class="button__buy" data-qa="hover">buy</a>
+          <a
+          class="phone-card__button"
+          data-qa="hover"
+          href="#"
+          >
+          buy
+          </a>
+        </div>
+        <div class="phone-card" data-qa="card">
+          <p class="phone-card__image-box">
+            <img src="./images/imac.jpeg"
+            alt="Mac"
+            class="phone-card__image"
+            >
+          </p>
+          <p class="phone-card__mac-model">
+            APPLE A1419 iMac 27" Retina 5K Monoblock (MNED2UA/A)
+          </p>
+          <p class="phone-card__product-code">
+            Product code: 195434
+          </p>
+          <div class="stars">
+            <ul class="stars__list">
+              <li class="stars__star"></li>
+              <li class="stars__star"></li>
+              <li class="stars__star"></li>
+              <li class="stars__star"></li>
+              <li class="stars__star"></li>
+            </ul>
+            <p class="stars__text">Reviews: 5</p>
           </div>
-        </article>
+          <div class="phone-card__price">
+            <p class="phone-card__price-title">Price:</p>
+            <p class="phone-card__price-total">$2,199</p>
+          </div>
+          <a
+          class="phone-card__button"
+          data-qa="hover"
+          href="#"
+          >
+          buy
+          </a>
+        </div>
+        <div class="phone-card" data-qa="card">
+          <p class="phone-card__image-box">
+            <img src="./images/imac.jpeg"
+            alt="Mac"
+            class="phone-card__image"
+            >
+          </p>
+          <p class="phone-card__mac-model">
+            APPLE A1419 iMac 27" Retina 5K Monoblock (MNED2UA/A)
+          </p>
+          <p class="phone-card__product-code">
+            Product code: 195434
+          </p>
+          <div class="stars">
+            <ul class="stars__list">
+              <li class="stars__star"></li>
+              <li class="stars__star"></li>
+              <li class="stars__star"></li>
+              <li class="stars__star"></li>
+              <li class="stars__star"></li>
+            </ul>
+            <p class="stars__text">Reviews: 5</p>
+          </div>
+          <div class="phone-card__price">
+            <p class="phone-card__price-title">Price:</p>
+            <p class="phone-card__price-total">$2,199</p>
+          </div>
+          <a
+          class="phone-card__button"
+          data-qa="hover"
+          href="#"
+          >
+          buy
+          </a>
+        </div>
+        <div class="phone-card" data-qa="card">
+          <p class="phone-card__image-box">
+            <img src="./images/imac.jpeg"
+            alt="Mac"
+            class="phone-card__image"
+            >
+          </p>
+          <p class="phone-card__mac-model">
+            APPLE A1419 iMac 27" Retina 5K Monoblock (MNED2UA/A)
+          </p>
+          <p class="phone-card__product-code">
+            Product code: 195434
+          </p>
+          <div class="stars">
+            <ul class="stars__list">
+              <li class="stars__star"></li>
+              <li class="stars__star"></li>
+              <li class="stars__star"></li>
+              <li class="stars__star"></li>
+              <li class="stars__star"></li>
+            </ul>
+            <p class="stars__text">Reviews: 5</p>
+          </div>
+          <div class="phone-card__price">
+            <p class="phone-card__price-title">Price:</p>
+            <p class="phone-card__price-total">$2,199</p>
+          </div>
+          <a
+          class="phone-card__button"
+          data-qa="hover"
+          href="#"
+          >
+          buy
+          </a>
+        </div>
+        <div class="phone-card" data-qa="card">
+          <p class="phone-card__image-box">
+            <img src="./images/imac.jpeg"
+            alt="Mac"
+            class="phone-card__image"
+            >
+          </p>
+          <p class="phone-card__mac-model">
+            APPLE A1419 iMac 27" Retina 5K Monoblock (MNED2UA/A)
+          </p>
+          <p class="phone-card__product-code">
+            Product code: 195434
+          </p>
+          <div class="stars">
+            <ul class="stars__list">
+              <li class="stars__star"></li>
+              <li class="stars__star"></li>
+              <li class="stars__star"></li>
+              <li class="stars__star"></li>
+              <li class="stars__star"></li>
+            </ul>
+            <p class="stars__text">Reviews: 5</p>
+          </div>
+          <div class="phone-card__price">
+            <p class="phone-card__price-title">Price:</p>
+            <p class="phone-card__price-total">$2,199</p>
+          </div>
+          <a
+          class="phone-card__button"
+          data-qa="hover"
+          href="#"
+          >
+          buy
+          </a>
+        </div>
+        <div class="phone-card" data-qa="card">
+          <p class="phone-card__image-box">
+            <img src="./images/imac.jpeg"
+            alt="Mac"
+            class="phone-card__image"
+            >
+          </p>
+          <p class="phone-card__mac-model">
+            APPLE A1419 iMac 27" Retina 5K Monoblock (MNED2UA/A)
+          </p>
+          <p class="phone-card__product-code">
+            Product code: 195434
+          </p>
+          <div class="stars">
+            <ul class="stars__list">
+              <li class="stars__star"></li>
+              <li class="stars__star"></li>
+              <li class="stars__star"></li>
+              <li class="stars__star"></li>
+              <li class="stars__star"></li>
+            </ul>
+            <p class="stars__text">Reviews: 5</p>
+          </div>
+          <div class="phone-card__price">
+            <p class="phone-card__price-title">Price:</p>
+            <p class="phone-card__price-total">$2,199</p>
+          </div>
+          <a
+          class="phone-card__button"
+          data-qa="hover"
+          href="#"
+          >
+          buy
+          </a>
+        </div>
+        <div class="phone-card" data-qa="card">
+          <p class="phone-card__image-box">
+            <img src="./images/imac.jpeg"
+            alt="Mac"
+            class="phone-card__image"
+            >
+          </p>
+          <p class="phone-card__mac-model">
+            APPLE A1419 iMac 27" Retina 5K Monoblock (MNED2UA/A)
+          </p>
+          <p class="phone-card__product-code">
+            Product code: 195434
+          </p>
+          <div class="stars">
+            <ul class="stars__list">
+              <li class="stars__star"></li>
+              <li class="stars__star"></li>
+              <li class="stars__star"></li>
+              <li class="stars__star"></li>
+              <li class="stars__star"></li>
+            </ul>
+            <p class="stars__text">Reviews: 5</p>
+          </div>
+          <div class="phone-card__price">
+            <p class="phone-card__price-title">Price:</p>
+            <p class="phone-card__price-total">$2,199</p>
+          </div>
+          <a
+          class="phone-card__button"
+          href="#"
+          data-qa="hover"
+          >
+          buy
+          </a>
+        </div>
       </div>
-
-
+    </div>
     </div>
   </body>
 </html>
