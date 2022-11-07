@@ -33,6 +33,7 @@
 }
 
 .nav__list-tag {
+  font-weight: 500;
   display: inline-block;
   margin: 0;
   text-decoration: none;
@@ -45,7 +46,11 @@
   color: #00acdc;
 }
 
-.nav__is-active:after {
+.is-active {
+  color: #00acdc;
+}
+
+.is-active:after {
   position: absolute;
   content: "";
   height: 4px;
